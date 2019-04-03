@@ -27,8 +27,6 @@
 extern id<MMKVHandler> g_callbackHandler;
 
 // enable logging
-#define ENABLE_MMKV_LOG
-
 #ifdef ENABLE_MMKV_LOG
 
 extern bool g_isLogRedirecting;
